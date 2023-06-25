@@ -583,11 +583,10 @@ body {
 
   .free-demo-service {
     position: relative;
-    /* overflow: hidden; */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90rem;
+    width: 100%;
     height: 32.6875rem;
     background: var(
       --linear-gradient,
@@ -796,7 +795,7 @@ body {
       #1e3448 99.99%,
       rgba(30, 52, 72, 0) 100%
     );
-    width: 90rem;
+    width: 100%;
     height: 25rem;
     text-align: center;
   }
